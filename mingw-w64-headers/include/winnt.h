@@ -1503,6 +1503,8 @@ inline ENUMTYPE &operator ^= (ENUMTYPE &a, ENUMTYPE b) { return (ENUMTYPE &)(((i
 #define InterlockedCompareExchangeAcquire InterlockedCompareExchange
 #define InterlockedCompareExchangeRelease InterlockedCompareExchange
 
+#define InterlockedExchange8 _InterlockedExchange8
+
 #define InterlockedAnd64 _InterlockedAnd64
 #define InterlockedAndAffinity InterlockedAnd64
 #define InterlockedOr64 _InterlockedOr64
@@ -1805,6 +1807,8 @@ extern "C" {
 #define BitScanForward _BitScanForward
 #define BitScanReverse _BitScanReverse
 
+#define InterlockedExchange8 _InterlockedExchange8
+
 #define InterlockedIncrement16 _InterlockedIncrement16
 #define InterlockedDecrement16 _InterlockedDecrement16
 #define InterlockedCompareExchange16 _InterlockedCompareExchange16
@@ -2013,6 +2017,8 @@ extern "C" {
 #define BitScanReverse _BitScanReverse
 #define BitScanForward64 _BitScanForward64
 #define BitScanReverse64 _BitScanReverse64
+
+#define InterlockedExchange8 _InterlockedExchange8
 
 #define InterlockedIncrement16 _InterlockedIncrement16
 #define InterlockedDecrement16 _InterlockedDecrement16
@@ -2238,6 +2244,8 @@ extern "C" {
 
 #define BitScanForward _BitScanForward
 #define BitScanReverse _BitScanReverse
+
+#define InterlockedExchange8 _InterlockedExchange8
 
 #define InterlockedIncrement16 _InterlockedIncrement16
 #define InterlockedDecrement16 _InterlockedDecrement16
